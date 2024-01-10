@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple backend api for user management written in node express. This README provides an overview of the project structure and how to install api
+This project is a simple backend api for user management written in node express. This README provides an overview of the project structure and how to install the api
 
 ## Project Structure
 
