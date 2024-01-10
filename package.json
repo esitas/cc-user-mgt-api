@@ -11,6 +11,7 @@
     "supertest": "^6.3.3"
   },
   "scripts": {
-    "test": "cd test && jest --detectOpenHandles"
+    "test": "cd test && jest --detectOpenHandles",
+    "start": "node index.js"
   }
 }
