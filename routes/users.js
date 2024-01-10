@@ -186,12 +186,11 @@ router.post("/users", (req, res) => {
     }
 
     const jsonData = JSON.parse(data);
-    // get the next userId to assign
+    // get the next userId to assign and assign it to the new user
     const nextUserId = jsonData.nextUserId;
+    newUser.userId = nextUserId;
     // increment the nextUserId
     jsonData.nextUserId++;
-    // assign nextUserId to the new user object
-    nextUserId.userId = nextUserId;
     // Add the newUser object to the array
     jsonData.users.push(newUser);
     // Write the data to the file.
